@@ -1,0 +1,268 @@
+.logimg{
+    margin-left: 150px;
+    object-fit: cover;
+}
+
+
+
+.grid1{
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr;
+    padding-top:110px;
+}
+
+
+.vl{
+    border-left: 6px solid red;
+  height: 400px;
+  margin-left: 150px;
+}
+.navbar{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0%;
+    width: 110%;
+ 
+  
+}
+@media screen and (max-width:992px) and (min-width:777px){
+    .vl{
+        height:280px;
+    }
+}
+@media screen and (max-width:778px) and (min-width:591px){
+    .vl{
+        height:200px;
+    }
+}
+@media screen and (max-width:592px) and (min-width:421px){
+    .vl{
+        height:170px;
+    }
+}
+
+@media screen and (max-width:423px){
+    .vl{
+        height:120px;
+    }
+}
+
+
+
+
+footer {
+    
+    background-color: black;
+     width: 103%;
+     margin-left: -2%;
+     margin-bottom: -2%;
+     color: #fff; 
+    
+    
+    
+ }
+ 
+ .head{
+     font-size: 40px;
+     text-align: center;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ 
+ p {
+     color: white;
+     margin: 0;
+     font-size: 16px; 
+ }
+ 
+ 
+ 
+ 
+ .footer-container {
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     height: auto;
+     width: 100%;
+     justify-content: center;
+     text-align: center;
+     color: #fff;
+ }
+ 
+ .footer-col {
+     width: 100%;
+     margin-bottom: 20px;
+     box-sizing: border-box;
+     padding: auto;
+     margin-top: 5%;
+ }
+ 
+ h2 {
+     color: #fff;
+   
+     margin-bottom: 10px;
+ }
+ 
+ ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+ .card-2{
+    
+     margin-left: 2%;
+ 
+ 
+ }
+ 
+ ul li {
+     margin-bottom: 5px;
+ }
+ 
+ a {
+     color: #fff; /* Updated link color to match the background for a clean look */
+     text-decoration: none;
+     transition: color 0.3s ease;
+ }
+ 
+ a:hover {
+     color: #fff;
+ }
+ 
+ .footer-author {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     background-color:#f5d7db(222, 168, 7);
+     margin-top: 0%;
+     width: 100%;
+     padding: 30px;
+ }
+ 
+ .footer-designed {
+     justify-content: center;
+     text-align: center;
+     width: 85%;
+     margin-left: 90px;
+ }
+ 
+ .footer-terms-ul {
+     display: flex;
+     list-style: none;
+     padding: 0;
+     align-items: flex-end;
+     justify-content: flex-end;
+ }
+ 
+ .footer-terms-ul li {
+     margin-right: 20px;
+     display: flex;
+     align-items: flex-end;
+ }
+ .footer-terms-ul li a {
+   color: rgb(226, 223, 223);
+ }
+ 
+ 
+ @media (max-width: 768px) {
+     .footer-container {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+     }
+ 
+     .footer-author {
+         display: grid;
+         grid-template-columns: 1fr;
+     }
+ 
+     .form-container {
+         margin-top: -5%;
+     }
+ }
+ 
+ @media (max-width: 440px) {
+     .form-container {
+         display: grid;
+         grid-template-columns: 1fr;
+     }
+ 
+     .form-container {
+         margin-top: -8%;
+     }
+ }
+ 
+ @media (max-width: 440px) {
+     .form-container {
+         width: 100%;
+     }
+ 
+     .footer-container {
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+     }
+ 
+     body {
+         width: 100%;
+     }
+ }
+ 
+ @media (max-width: 340px) {
+     .footer-container {
+         display: grid;
+         grid-template-columns: 1fr;
+     }
+ 
+     .footer-designed p {
+         font-size: 10px;
+     }
+ 
+     .footer-terms-ul {
+         display: none;
+     }
+ }
+ 
+ .log{
+    padding: 50px;
+ }
+
+ h3{
+    color: crimson;
+ }
+ label{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+ }
+
+ input{
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+ }
+
+ button{
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: crimson;
+    width: 100%;
+    font-size: 16px;
+ }
+ .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.nav-item{
+    justify-content: space-around;
+    margin-left: 50px;
+}
