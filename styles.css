@@ -101,7 +101,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: start;
-    margin-left: 5%;
+    margin-left: 4%;
     flex-wrap: wrap;
     padding: 1%;
     margin-top: 5%;
@@ -114,7 +114,6 @@ body{
     font-weight: 300;
     padding: 2%;
     text-align: center;
-    font-size: medium;
     font-family: cursive;
     color: black;
 }
