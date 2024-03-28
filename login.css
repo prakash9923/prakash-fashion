@@ -18,7 +18,7 @@
   margin-left: 150px;
 }
 .navbar{
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     margin-top: 0%;
     width: 110%;
@@ -264,5 +264,5 @@ footer {
 }
 .nav-item{
     justify-content: space-around;
-    margin-left: 50px;
+    margin-left: 30px;
 }
