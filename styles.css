@@ -45,7 +45,7 @@
 
 .cardpara22{
     background-color: red;
-    width: 81%;
+    width: 80%;
     margin-top: 10px;
     text-align: center;
     
@@ -106,8 +106,8 @@ body{
   }
 
 .left{ 
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
     justify-content: start;
     margin-left: 2%;
     flex-wrap: wrap;
