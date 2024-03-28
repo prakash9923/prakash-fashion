@@ -37,7 +37,15 @@
 }
 .cardpara{
     background-color: red;
-    width: 420px;
+    width: 79%;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.cardpara22{
+    background-color: red;
+    width: 82%;
     margin-top: 10px;
     text-align: center;
     
