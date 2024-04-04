@@ -11,12 +11,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script defer src="fb.js"></script>
+    <script src="https://unpkg.com/swup@4"></script>
+    <script>
+    const swup = new Swup();
+    </script>
+
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     
 
 </head>
 <body class="col">
+                                            <!--Header-->
     <header id="mainheader">
+                                              <!--navbar-->
         <nav class="navbar navbar-expand-lg navbar-light pl-5 fixed" >
             <a class="navbar-brand" href="#"><img src="Prakash-removebg-preview.png" height="60"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,29 +44,29 @@
                 <li class="nav-item active">
                   <a class="nav-link" href="login.html" tabindex="-1" aria-disabled="true">Login</a>
                 </li>
-
-                <li class="nav-item active">
-                    <a class="nav-link" href="#" ><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-                      </svg></a>
-                  </li>
-
                   <li class="nav-item active">
                     <a class="nav-link" href="#" > <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
                         <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
                       </svg></a>
                   </li>
-
-                  
                   <li class="nav-item active">
                     <a class="nav-link" href="#" > <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
                       </svg></a>
                   </li>
+
+                  <li class="navbar navbar-light bg-light mb-5">
+                    <form class="form-inline">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                  </li>
+
                 </ul>
             </div>
           </nav>
-          <main>
+                                          <!--Adv-->
+          <main  class="transition-fade container-sm container-md container-lg container-xl">
             <div>
               <img src="Screenshot 2024-03-27 190327.png" width="100%"   alt="">
             </div>
@@ -81,44 +89,53 @@
           </main>
 
     </header>
+
+    <div class="container">
+      <div class="row">
     <div class="card-3">
 
-      <div>
+      <div class="col-4">
       <img  src="medium-shot-cool-man-wearing-trucker-hat.jpg"  width="80%"  alt="">
       <p class="cardpara22">Feel the Young and Stylish</p>
       </div>
 
-      <div>
+      <div class="col-4">
         <img  src="h-2.jpg"   width="80%"  alt="">
         <p class="cardpara">Just like your way to conquer</p>
         </div>
 
 
-        <div>
+        <div class="col-4">
           <img  src="full-shot-man-posing-with-dental-gems.jpg"  width="80%"  alt="">
           <p class="cardpara">Stands out like sun</p>
           </div>
     </div>
+  </div>
+</div>
+                                    <!--Cards-->
 
 
-
-          <h2 class="head-of-offer">STYLES TO STEAL</h2><br>
-          <h3 class="head3">Inspired by influencer</h3>
+          <h5 class="head-of-offer">STYLES TO STEAL</h5><br>
+          <h6 class="head3">Inspired by influencer</h6>
     
           <br><br>
-    
-          <div class="index-grid-img-3">
+          
+          <div class="container">
+            <div class="row">
+          <div class="index-grid-img-3 col-12 col-4">
             <img src="girl1.png" alt=""></a>
             <img src="girl2.png" alt="" srcset=""></a>
             <img src="girl3.png" alt=""></a>
             <img src="girl4.png" alt="" srcset=""></a>
         </div>
-       
+      </div>
+    </div>       
     
           <br><br>
 
-
-          <div class="lastcard">
+          
+         
+          <div class="lastcard ">
           <div>
             <img src="img/q1.png" width="100%" alt="">
             <p class="cardpara1">Hottest pair</p>
@@ -154,11 +171,14 @@
             <p class="cardpara1">Easy Goingstyles</p>
             <p class="offer">Min. 40% OFF</p>
           </div>
-
+          
         </div>
+        
+    
     </div>
 
 </body>
+                                                <!--footer-->
 
     <footer>
       
