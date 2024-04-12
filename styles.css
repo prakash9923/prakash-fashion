@@ -331,3 +331,6 @@ html.is-leaving .transition-fade{
     opacity: 0;
     transform: translateX(0);
 }
+.wed-1{
+    margin-top:-1%;
+}
